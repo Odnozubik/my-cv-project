@@ -32,6 +32,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 h1{
     font-size: 90px;
@@ -61,4 +62,18 @@ h2{
     background-color: #12F7D6;
     border-radius: 15px;
     margin: 0px 0px;
+}
+.tipo_card{
+    background-color: #1A1E23;
+    padding: 8px;
+    border-radius: 45px;
+}
+.tipo_element{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
