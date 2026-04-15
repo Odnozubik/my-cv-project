@@ -51,7 +51,11 @@ h5{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 25px;
+}
+.gh-icon::before{
+    font-size: 45px;
 }
 .nav_but{
     margin: 10px;
@@ -91,9 +95,6 @@ h5{
     width: 30px;
     height: 30px;
     border-radius: 100%;
-}
-.icon{
-    padding-top: 13px;
 }
 .about{
     font-family:"Ubuntu";
@@ -224,22 +225,84 @@ h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
 }
 .contacts{
     font-family: "Ubuntu";
-    background-color: #292F36;
+    background-color: #292F36 ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .bibok{
-    color: white;
-    border: white solid 4px;
+    color: #12F7D6;
+    background-color: #1A1E23;
+    border: #12F7D6 solid 4px;
     border-radius: 30px 0 30px 0;
     padding: 20px;
     margin-top: 30px;
 }
 .bobok{
-    font-size: 30px;
+    font-size: 50px;
+}
+.site_img{
+    width: 500px;
+    height: 250px;
+    margin: 40px;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+.name_email{
+    margin-top: 30px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mess_but{
+    width: 400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #12F7D6;
+}
+.mess_text{
+    width: 400px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.onemess{
+    width: 1100px;
+}
+.babok{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.cont_but{
+    background-color: #12F7D6;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.cont_send:hover{
+    font-size: 40px;
+}
+.cont_send{
+    font-size: 35px;
+    transition: 1s;
+}
+.site_text{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+input{
+    background-color: black;
+    color: #12F7D6;
+    border: #12F7D6 2px solid;
+    border-radius: 15px;
+}
+.onigiri{
+    width: 600px;
 }
